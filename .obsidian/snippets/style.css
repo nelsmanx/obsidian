@@ -1,0 +1,19 @@
+.callout[data-callout="credentials"] {
+	--callout-color: 135, 111, 216;
+	--callout-icon: user;
+}
+
+/* .markdown-source-view.mod-cm6 .cm-content .HyperMD-codeblock-begin {
+	margin-top: 1em !important;
+} */
+/* .markdown-source-view.mod-cm6 .cm-content .HyperMD-codeblock-end {
+	margin-bottom: 1em !important;
+} */
+/* .markdown-source-view.mod-cm6 .cm-content .HyperMD-header {
+	margin-bottom: 1em !important;
+}
+
+.cm-s-obsidian .cm-line.HyperMD-header {
+	margin-top: var(--p-spacing) !important;
+	padding-top: 0 !important;
+} */

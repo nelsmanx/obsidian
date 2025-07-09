@@ -1,0 +1,10 @@
+{
+  "accentColor": "#8155a5",
+  "cssTheme": "Atom",
+  "theme": "obsidian",
+  "translucency": false,
+  "enabledCssSnippets": [
+    "style"
+  ],
+  "baseFontSize": 14
+}

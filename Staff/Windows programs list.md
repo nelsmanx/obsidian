@@ -1,0 +1,7 @@
+- Firefox 64.0b9 - версия без поддержки `webp`
+- HandBrake - open Source Video Transcoder
+- Ventoy -  tool to create bootable USB drive
+- qBittorrent - open-source software alternative to µTorrent
+- OBS Studio - open source software for video recording and live streaming
+- KeePassXC - open source password Manager
+- Automated Redpill Loader - создание загрузчика для XPEnology 7

@@ -1,0 +1,56 @@
+{
+  "settings": {
+    "migrated": 3,
+    "iconPacksPath": ".obsidian/icons",
+    "fontSize": 16,
+    "emojiStyle": "none",
+    "iconColor": null,
+    "recentlyUsedIcons": [
+      "CuCodeigniterPlain",
+      "CuTypescriptPlain",
+      "CuTypescript",
+      "CuFolderTasks",
+      "CuRobots"
+    ],
+    "recentlyUsedIconsSize": 5,
+    "rules": [],
+    "extraMargin": {
+      "top": 0,
+      "right": 4,
+      "bottom": 0,
+      "left": 0
+    },
+    "iconInTabsEnabled": false,
+    "iconInTitleEnabled": false,
+    "iconInFrontmatterEnabled": false,
+    "iconsBackgroundCheckEnabled": false,
+    "iconsInNotesEnabled": true
+  },
+  "Git": "CuGitPlain",
+  "CSS": "CuCss3Plain",
+  "HTML": "CuHtml5Plain",
+  "JavaScript": "CuJavascriptPlain",
+  "Nuxt 3": "CuNuxt",
+  "PHP": "CuPhpPlain",
+  "Vue": "CuVuejsOriginal",
+  "NPM.md": "CuNpmOriginalWordmark",
+  "Docker.md": "CuDockerPlain",
+  "YII2": "CuYiiPlain",
+  "Linux": "CuLinuxOriginal",
+  "MODX": "CuModxOriginal",
+  "Wordpress.md": "CuWordpressPlain",
+  "MongoDB": "CuMongodbPlain",
+  "Photoshop.md": "CuPhotoshopLine",
+  "Bootstrap.md": "CuBootstrapPlain",
+  "Illustrator.md": "CuIllustratorLine",
+  "Windows.md": "CuWindows8Original",
+  "VS Code.md": "CuVscodeOriginal",
+  "_files": "CuFolderImages",
+  "Telegram Bot.md": "CuDependabot",
+  "JavaScript/Tasks.md": "CuFolderTasks",
+  "JavaScript/Interview.md": {
+    "iconName": "CuCodeigniterPlain",
+    "inheritanceIcon": "CuDocument"
+  },
+  "TypeScript": "CuTypescriptPlain"
+}
