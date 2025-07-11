@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JavaScript/Прототипы.md",
+                "file": "MODX/_MODX.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Прототипы"
+              "title": "_MODX"
             }
           }
         ]
@@ -179,6 +179,7 @@
   },
   "active": "239a8f604844e3bc",
   "lastOpenFiles": [
+    "JavaScript/Прототипы.md",
     "New Text Document.txt",
     "_files/Pasted image 20250709202911.png",
     "_files/Pasted image 20250709202601.png",
@@ -187,7 +188,6 @@
     "_files/Pasted image 20250709174452.png",
     "_files/Pasted image 20250709173252.png",
     "_files/Pasted image 20250709143541.png",
-    "JavaScript/Прототипы.md",
     "_files/Pasted image 20250708125512.png",
     "JavaScript/Открытие модального окна по ссылке.md",
     "_files/Pasted image 20250708120156.png.~tmp",
@@ -216,7 +216,6 @@
     "PHP/PHP.md",
     "JavaScript/import - export, require, модули.md",
     "_files/Динамические импоры - Learn.JavaScript.ru.mhtml",
-    "_files/Экспорт и импорт - Learn.JavaScript.ru .mhtml",
     "JavaScript/Ajax/async await.md",
     "JavaScript/Arrays/Arrays.md",
     "JavaScript/Arrays/Methods.md",
