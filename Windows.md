@@ -29,3 +29,9 @@ reg delete "HKEY_USERS\.DEFAULT\Keyboard Layout\Preload" /f
 [How to prevent Windows 10 from automatically adding keyboard layouts (i.e. US keyboard)](https://superuser.com/questions/1092246/how-to-prevent-windows-10-from-automatically-adding-keyboard-layouts-i-e-us-ke)
 ___
 
+## Загрузка, установка Office 2024 LTSC
+
+![[Как загрузить, установить Office 2024 LTSC с сайта Microsoft и активировать навсегда.Хабр.mhtml]]
+___
+
+
