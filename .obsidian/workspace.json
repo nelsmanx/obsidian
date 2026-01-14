@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "export defaul",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 301.5
+    "width": 301.5,
+    "collapsed": true
   },
   "right": {
     "id": "096fdeec250f0ae5",
@@ -172,6 +173,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-git:Open Git source control": false,
       "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
@@ -182,8 +184,13 @@
   },
   "active": "c7845f96b3d41293",
   "lastOpenFiles": [
-    "Untitled.base",
+    "_files/Управление данными в Docker — Дока.mhtml",
+    "_files/Как устроен Dockerfile — Дока.mhtml",
+    "_files/Мультиконтейнерное приложение и Docker Compose — Дока.mhtml",
+    "_files/Что такое Docker — Дока.mhtml",
+    "_files/dockercheatsheet8.png",
     "Docker.md",
+    "Untitled.base",
     "Linux/Basic commands.md",
     "Linux/Package management.md",
     "Linux/sudo and su.md",
@@ -209,9 +216,6 @@
     "_files/Экспорт и импорт - Learn.JavaScript.ru.mhtml",
     "_files/Экспорт и импорт - Learn.JavaScript.ru .mhtml",
     "_files/Приватные и защищённые методы и свойства - Learn.JavaScript.ru.mhtml",
-    "_files/Модули, import_export — JavaScript — Дока.mhtml",
-    "_files/Как загрузить, установить Office 2024 LTSC с сайта Microsoft и активировать навсегда.Хабр.mhtml",
-    "_files/Как браузер рисует страницы — Веб-платформа — Дока.mhtml",
     "_files/yandex-turbo-tags.jpg",
     "_files/yandex-turbo-tags 1.jpg",
     "_files/www.atlassian.com_ru_git_tutorials_undoing-changes.png",
@@ -221,7 +225,6 @@
     "_files/Pasted image 20250723132240.png",
     "_files/Pasted image 20250714133521.png",
     "_files/Pasted image 20250713154321.png",
-    "_files/Pasted image 20250713123532.png",
     "YII2/_yii2.md",
     "YII2/YII2 pathInfo.md",
     "YII2/YII2 Host name.md",

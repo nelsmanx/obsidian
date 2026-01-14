@@ -50,7 +50,6 @@
   "PHP": "CuPhpPlain",
   "Vue": "CuVuejsOriginal",
   "NPM.md": "CuNpmOriginalWordmark",
-  "Docker.md": "CuDockerPlain",
   "YII2": "CuYiiPlain",
   "Linux": "CuLinuxOriginal",
   "MODX": "CuModxOriginal",
@@ -65,5 +64,6 @@
   "Telegram Bot.md": "CuDependabot",
   "JavaScript/Tasks.md": "CuFolderTasks",
   "TypeScript": "CuTypescriptPlain",
-  "JavaScript/Interview.md": "CuCodeigniterPlain"
+  "JavaScript/Interview.md": "CuCodeigniterPlain",
+  "Docker.md": "CuDockerPlain"
 }

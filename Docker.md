@@ -1,10 +1,3 @@
-[Docker cheatsheet](https://quickref.me/docker.html)
-[Docker compose  cheatsheet](https://devhints.io/docker-compose)
-
-
-- Dockerfile + Docker-compose.yml
--  Github
--  Cheat sheet
 ## Run a new Container
 
 ```bash
@@ -37,6 +30,38 @@ $ docker rmi <image_name>   # delete an image
 $ docker build -t myapp .      # create image `myapp:latest`
 $ docker build -t myapp:v1 .   # create image `myapp:v1`
 $ docker build .               # create image without name and tag
+```
+___
+
+## Dockerfile
+
+Docker builds images by reading the instructions from a Dockerfile. A Dockerfile is a text file containing instructions for building your source code.
+
+| Instruction                              | Description                                                                                                                                                                                              |
+| ---------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `FROM <image>`                           | Defines a base for your image.                                                                                                                                                                           |
+| `RUN <command>`                          | Executes any commands in a new layer on top of the current image and commits the result. `RUN` also has a shell form for running commands.                                                               |
+| `ENV`                                    | Set environment variables.                                                                                                                                                                               |
+| `COPY <src> <dest>`                      | Copies new files or directories from `<src>` and adds them to the filesystem of the container at the path `<dest>`.                                                                                      |
+| `EXPOSE`                                 | Describe (not expose) which ports your application is listening on.                                                                                                                                      |
+| `USER                  <user>[:<group>]` | Set user and group ID.                                                                                                                                                                                   |
+| `WORKDIR <directory>`                    | Sets the working directory for any `RUN`, `CMD`, `ENTRYPOINT`, `COPY`, and `ADD` instructions that follow it in the Dockerfile.                                                                          |
+| `ENTRYPOINT`                             | Specify default executable.\|                                                                                                                                                                            |
+| `CMD <command>`                          | Lets you define the default program that is run once you start the container based on this image. Each Dockerfile only has one `CMD`, and only the last `CMD` instance is respected when multiple exist. |
+
+Используйте `ENTRYPOINT`, если вы не хотите, чтобы пользователь вашего образа переопределял поведение приложения в контейнере. Используйте `CMD`, если записываете команду по умолчанию, которую пользователь с лёгкостью может переопределить на этапе запуска контейнера.
+
+```dockerfile
+# dockerfile
+
+FROM ubuntu:18.04
+RUN sudo apt update && sudo apt install nodejs && sudo apt install npm
+WORKDIR /app
+COPY . .
+ENV NODE_ENV=production
+USER node_user
+EXPOSE 8080
+CMD ["node", "app.js"]
 ```
 ___
 
@@ -216,3 +241,13 @@ usermod -aG docker username
 ```bash
 docker rm c6
 ```
+
+![[Что такое Docker — Дока.mhtml]]
+![[Мультиконтейнерное приложение и Docker Compose — Дока.mhtml]]
+![[Как устроен Dockerfile — Дока.mhtml]]
+![[Управление данными в Docker — Дока.mhtml]]
+
+[Docker cheatsheet](https://quickref.me/docker.html)
+[Docker compose  cheatsheet](https://devhints.io/docker-compose)
+
+![[dockercheatsheet8.png]]
