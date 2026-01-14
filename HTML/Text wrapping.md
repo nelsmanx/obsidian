@@ -6,6 +6,7 @@
 В JS `\u00A0`
 
 Non-breaking hyphen `&#8209;`
+Non-breaking slash `&#8260;`
 ___
 
 ### Запрет переноса CSS 

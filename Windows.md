@@ -34,4 +34,8 @@ ___
 ![[Как загрузить, установить Office 2024 LTSC с сайта Microsoft и активировать навсегда.Хабр.mhtml]]
 ___
 
+## Alt Codes
+
+![[Alt Codes – How to Type Special Characters and Keyboard Symbols on Windows Using the Alt Keys.mhtml]]
+___
 

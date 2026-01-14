@@ -1,3 +1,0 @@
-#html 
-
--  lightbox (fancybox, fslightbox) 

@@ -1,22 +1,50 @@
+### Выключение/перезагрузка
+
+```bash
+$ sudo shutdown now
+$ sudo reboot || sudo shutdown -r now ||
+```
+___
+
+### Очистка экрана
+
+```bash
+$ clear || ctrl + L
+```
+___
+
+### Выход из terminal, ssh, su
+
+```bash
+$ exit || ctrl + D
+```
+___
+
+### Очистка текущей строки
+
+```bash
+ctrl + U (от курсора влево)
+```
+___
+
+### Disk free and disk usage
+
+Показать все файловые системы в `human-readable` единицах (`G, M`)
+
+```bash
+$ df -h
+```
+
+Использование места папкой/файлом
+
+```bash
+$ du -sh [FILE]
+```
+`-s, --summarize` - display only a total for each argument
+___
 
 
-which
-
-
-
-Ctrl+L, clear - очистка экрана
-
-Ctrl+D - выход из консоли (например, после того как переключился командой su под другого пользователя или зайдя по ssh на другую машину) – вместо набора команды «exit» или «logout»
-
-Ctrl+C - прервать текущий процесс
-
-Shift + PageUp, Shift + PageDown - пролистывание вверх\вниз
-
-
-Питание сервера:
-shutdown -p now - выключение сейчас
-shutdown -r +5 - перезагрузка через 5 минут
-shutdown -с - отмена запланированного выключения
+ctrlZ fg bg $
 
 
 

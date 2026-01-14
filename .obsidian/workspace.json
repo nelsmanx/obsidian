@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "a3b3929369ab2af2",
+        "id": "a31843991d0a55f7",
         "type": "tabs",
         "children": [
           {
-            "id": "283e25db219d93e4",
+            "id": "c7845f96b3d41293",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JavaScript/Objects/Descriptors.md",
+                "file": "Docker.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Descriptors"
+              "title": "Docker"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "деструк",
+                "query": "export defaul",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 301.5,
-    "collapsed": true
+    "width": 301.5
   },
   "right": {
     "id": "096fdeec250f0ae5",
@@ -129,7 +128,9 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": false
+                "useHierarchy": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-tags",
               "title": "Tags"
@@ -171,6 +172,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -178,54 +180,53 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "283e25db219d93e4",
+  "active": "c7845f96b3d41293",
   "lastOpenFiles": [
-    "_files/Pasted image 20250714133521.png",
-    "JavaScript/Objects/Getters and setters.md",
-    "JavaScript/Objects/Descriptors.md",
-    "JavaScript/Classes.md",
-    "JavaScript/Objects/_Objects.md",
-    "JavaScript/_JavaScript.md",
-    "Windows.md",
-    "JavaScript/Objects",
-    "_files/Как загрузить, установить Office 2024 LTSC с сайта Microsoft и активировать навсегда.Хабр.mhtml",
-    "JavaScript/Дестуктуризация.md",
-    "JavaScript/Destructuring assignment.md",
+    "Untitled.base",
+    "Docker.md",
+    "Linux/Basic commands.md",
+    "Linux/Package management.md",
+    "Linux/sudo and su.md",
+    "Linux/VIM.md",
+    "Devtools.md",
+    "Bootstrap.md",
+    "Figma.md",
+    "Gulp.md",
+    "NPM.md",
+    "Nunjucks.md",
+    "Open Server.md",
+    "Reading list.md",
+    "MongoDB/MongoDB Cheat Sheet 2022.md",
+    "MongoDB/MongoDB Cheat Sheet.md",
+    "MongoDB/MongoDB.md",
+    "Linux/curl and wget.md",
+    "Git/stash.md",
+    "Git/revert.md",
+    "Linux/Ubuntu Server.md",
+    "Untitled 3.base",
+    "Untitled 2.base",
+    "Untitled 1.base",
+    "_files/Экспорт и импорт - Learn.JavaScript.ru.mhtml",
+    "_files/Экспорт и импорт - Learn.JavaScript.ru .mhtml",
     "_files/Приватные и защищённые методы и свойства - Learn.JavaScript.ru.mhtml",
-    "_files/Pasted image 20250713154321.png",
-    "_files/Pasted image 20250713123405.png",
-    "_files/Pasted image 20250713123532.png",
-    "JavaScript/Arrays/Arrays.md",
-    "JavaScript/Arrays/Methods.md",
-    "MODX/_MODX.md",
-    "JavaScript/Прототипы.md",
-    "New Text Document.txt",
-    "_files/Pasted image 20250709202911.png",
-    "_files/Pasted image 20250709202601.png",
-    "_files/Pasted image 20250709202514.png",
-    "_files/Pasted image 20250709174949.png",
-    "_files/Pasted image 20250709174452.png",
-    "_files/Pasted image 20250709173252.png",
-    "_files/Pasted image 20250709143541.png",
-    "JavaScript/Открытие модального окна по ссылке.md",
-    "_files/Pasted image 20250708120156.png.~tmp",
-    "JavaScript/Типы данных.md",
-    "_files/Pasted image 20250708115859.png.~tmp",
-    "_files/Pasted image 20250708115255.png.~tmp",
-    "_files/Pasted image 20250708114959.png.~tmp",
-    "JavaScript/Архитектура браузера.md",
-    "JavaScript/Ajax/Event Loop.md",
-    "JavaScript/Генерация ссылок на товар.md",
-    "JavaScript/Critical Rendering Path (CRP).md",
+    "_files/Модули, import_export — JavaScript — Дока.mhtml",
+    "_files/Как загрузить, установить Office 2024 LTSC с сайта Microsoft и активировать навсегда.Хабр.mhtml",
     "_files/Как браузер рисует страницы — Веб-платформа — Дока.mhtml",
-    "JavaScript/Ajax/XMLHttpRequest.md",
-    "JavaScript/Ajax/Promises.md",
-    "JavaScript/Ajax/Синхронный и асинхронный код.md",
-    "JavaScript/Ajax/Fetch.md",
-    "JavaScript/Interview.md",
-    "_files/Event loop example.mp4",
-    "JavaScript/Functions.md",
-    "YII2/File rendering.md",
+    "_files/yandex-turbo-tags.jpg",
+    "_files/yandex-turbo-tags 1.jpg",
+    "_files/www.atlassian.com_ru_git_tutorials_undoing-changes.png",
+    "_files/telegram-bot.jpg",
+    "_files/samokat2kolesa.ru_vakansii-kurera-zhenshchiny_.png",
+    "_files/photoshop-workspace.jpg",
+    "_files/Pasted image 20250723132240.png",
+    "_files/Pasted image 20250714133521.png",
+    "_files/Pasted image 20250713154321.png",
+    "_files/Pasted image 20250713123532.png",
+    "YII2/_yii2.md",
+    "YII2/YII2 pathInfo.md",
+    "YII2/YII2 Host name.md",
+    "YII2/YII2 files registration.md",
+    "YII2/Using link.md",
     "Untitled.canvas"
   ]
 }

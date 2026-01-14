@@ -1,9 +1,9 @@
 {
   "settings": {
-    "migrated": 3,
+    "migrated": 6,
     "iconPacksPath": ".obsidian/icons",
     "fontSize": 16,
-    "emojiStyle": "none",
+    "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
       "CuCodeigniterPlain",
@@ -13,7 +13,15 @@
       "CuRobots"
     ],
     "recentlyUsedIconsSize": 5,
-    "rules": [],
+    "rules": [
+      {
+        "icon": "CuDocument",
+        "rule": "JavaScript/Interview.md\\/[\\w\\d\\s]+\\.(?:\\w+\\.)*\\w+",
+        "for": "files",
+        "order": 0,
+        "useFilePath": true
+      }
+    ],
     "extraMargin": {
       "top": 0,
       "right": 4,
@@ -24,7 +32,15 @@
     "iconInTitleEnabled": false,
     "iconInFrontmatterEnabled": false,
     "iconsBackgroundCheckEnabled": false,
-    "iconsInNotesEnabled": true
+    "iconsInNotesEnabled": true,
+    "iconInTitlePosition": "above",
+    "iconInFrontmatterFieldName": "icon",
+    "iconColorInFrontmatterFieldName": "iconColor",
+    "iconsInLinksEnabled": true,
+    "iconIdentifier": ":",
+    "lucideIconPackType": "native",
+    "debugMode": false,
+    "useInternalPlugins": false
   },
   "Git": "CuGitPlain",
   "CSS": "CuCss3Plain",
@@ -48,9 +64,6 @@
   "_files": "CuFolderImages",
   "Telegram Bot.md": "CuDependabot",
   "JavaScript/Tasks.md": "CuFolderTasks",
-  "JavaScript/Interview.md": {
-    "iconName": "CuCodeigniterPlain",
-    "inheritanceIcon": "CuDocument"
-  },
-  "TypeScript": "CuTypescriptPlain"
+  "TypeScript": "CuTypescriptPlain",
+  "JavaScript/Interview.md": "CuCodeigniterPlain"
 }

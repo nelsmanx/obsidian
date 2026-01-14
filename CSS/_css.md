@@ -1,5 +1,12 @@
 #css 
 
+### Class names
+```css
+section__header section__heading section__titlebar
+lightbox (fancybox, fslightbox) 
+```
+
+
 ### Flip an image (add a mirror effect)
 ```css
 .foo { 
@@ -210,3 +217,5 @@ input::-webkit-inner-spin-button {
 Можно использовать display: flex; flex-direction: column; Newstarcamp
 
 Если 2 колонки, слева контент, а справа должна быть картинка высотой как у контента слева, то картинку можно обернуть в блок с position: relative,  а картнику сделать с абсолютным позиционированием Tigor 
+
+Еще варанит - установить картинке min-height: 100%...

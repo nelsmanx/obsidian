@@ -11,6 +11,5 @@ To physically download the file on your machine in the current directory, you ca
 $ curl -O http://example.com/logs/20231003.txt
 ```
 
-#### Downloading and renaming files
 
 

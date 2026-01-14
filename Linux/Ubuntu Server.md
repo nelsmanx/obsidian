@@ -26,8 +26,3 @@ sudo ip route add default via 192.168.1.1
 curl -fsSL https://get.docker.com -o get-docker.sh
 sudo sh get-docker.sh
 ```
-
-### Outline
-```bash
-vim  /opt/outline/access.txt
-```
