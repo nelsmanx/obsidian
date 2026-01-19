@@ -16,6 +16,7 @@ $ docker ps|ps -a                        # list of currently running|all contain
 $ docker exec -it <container_name> bash  # open a bash inside a running container
 $ docker start|stop <container_name|id>  # start or stop an existing container
 $ docker rm  <container_name|id>         # remove a stopped container
+$ docker inspect <container_name|id>     # get detailed info about container
 ```
 ___
 
@@ -24,7 +25,12 @@ ___
 ``` bash
 $ docker images             # show list of all images
 $ docker rmi <image_name>   # delete an image 
+$ docker image prune [-a]   # delete all dangling images
 ```
+
+`docker image prune -a` removes all unused images, not just dangling ones.  Images that are not used by _any_ container (running or stopped) will be removed.
+
+**Dangling images** in Docker are images that are untagged, appear as `<none>:<none>` in the image list, and are not used by any existing containers. They are essentially unused layers that consume disk space and can be safely removed.  Dangling images primarily occur when you build a new image and reuse an existing tag. 
 
 ``` bash
 $ docker build -t myapp .      # create image `myapp:latest`

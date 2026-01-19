@@ -13,17 +13,26 @@ $ clear || ctrl + L
 ```
 ___
 
+### Очистка в терминале
+
+```bash
+ctrl + U  # Очистка всей текущей строки (от курсора влево)
+ctrl + W  # Удаление слова слева от курсора (ctrl + backspace не рабоает)
+```
+___
+
+### Очистка в терминале
+
+```bash
+ctrl + Shift + Up|Down Arrow   # Scroll up|down one line at a time
+```
+___
+
+
 ### Выход из terminal, ssh, su
 
 ```bash
 $ exit || ctrl + D
-```
-___
-
-### Очистка текущей строки
-
-```bash
-ctrl + U (от курсора влево)
 ```
 ___
 
@@ -45,9 +54,22 @@ ___
 
 
 ctrlZ fg bg $
+alias для ssh
+статичный ip, ip a
+alias for ssh
+users
+
+
+`which` в Linux — это ==команда командной строки, которая находит и показывает полный путь к исполняемому файлу программы==
+
+
+  alias ls='ls -l --color=auto'
+
+command from history !534
 
 
 
+In Linux, the `cd` command without any arguments will ==change the current working directory to the user's **home directory**==
 
 
 
