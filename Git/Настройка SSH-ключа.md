@@ -77,4 +77,12 @@ host github.com
  HostName github.com
  IdentityFile ~/.ssh/id_rsa
 ```
+___
 
+### Show key's fingerprint
+
+```bash
+$ ssh-keygen -lf ~/.ssh/work_rsa.pub
+
+> 4096 SHA256:yAWBjFrGvt0jrwBYqcsVgZa3/d3W0GiUSHgyTZcxPng maestro@DESKTOP-OG (RSA)
+```

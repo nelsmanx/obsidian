@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/WSL.md",
+                "file": "Git/Настройка SSH-ключа.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "WSL"
+              "title": "Настройка SSH-ключа"
             }
           },
           {
@@ -82,7 +82,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "vim",
+                "query": "git",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -213,9 +213,12 @@
   },
   "active": "c33f14f860282ad6",
   "lastOpenFiles": [
-    "_files/starship.toml",
+    "Git/Основные команды.md",
+    "Git/Работа с удалёнными репозиториями.md",
     "Linux/CLI tools.md",
+    "Git/_git.md",
     "Linux/WSL.md",
+    "_files/starship.toml",
     "_files/linux-original.png",
     "Linux/VIM.md",
     "Linux/Basic commands.md",
@@ -248,7 +251,6 @@
     "Untitled 2.base",
     "Untitled 1.base",
     "_files/Экспорт и импорт - Learn.JavaScript.ru.mhtml",
-    "_files/Экспорт и импорт - Learn.JavaScript.ru .mhtml",
     "_files/yandex-turbo-tags.jpg",
     "_files/yandex-turbo-tags 1.jpg",
     "_files/www.atlassian.com_ru_git_tutorials_undoing-changes.png",
@@ -257,8 +259,6 @@
     "_files/photoshop-workspace.jpg",
     "_files/Pasted image 20250723132240.png",
     "_files/Pasted image 20250714133521.png",
-    "YII2/_yii2.md",
-    "YII2/YII2 pathInfo.md",
     "Untitled.canvas"
   ]
 }
